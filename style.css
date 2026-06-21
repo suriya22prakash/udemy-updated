@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.navbar{
+
+.navbar {
     padding: 10px;
     justify-content: space-between;
     display: flex;
@@ -20,12 +22,14 @@ body{
     background-color: rgb(255, 255, 255);
     z-index: 1;
 
-    
+
 }
-.navbar__s1__h1{
+
+.navbar__s1__h1 {
     color: #9338DF;
 }
-.navbar__s2{
+
+.navbar__s2 {
     padding: 10px;
     border: solid black 1px;
     border-radius: 30px;
@@ -33,26 +37,31 @@ body{
     gap: 10px;
     width: 45%;
     align-items: center;
-    
+
 }
-.navbar__s2 input{
+
+.navbar__s2 input {
     border: none;
     width: 100%;
     background-color: transparent;
 }
-.navbar__s2 input:focus{
+
+.navbar__s2 input:focus {
     outline: none;
 }
-.navbar__s3{
+
+.navbar__s3 {
     display: flex;
     gap: 10px;
     align-items: center;
 }
-.learning{
+
+.learning {
     position: relative;
     cursor: pointer;
 }
-.popup{
+
+.popup {
     position: absolute;
     padding: 10px;
     height: fit-content;
@@ -64,139 +73,191 @@ body{
     right: 0;
     display: none;
 }
-.learning:hover .popup{
+
+.learning:hover .popup {
     display: block;
 }
-body{
-    font-family: "Merriweather","Stack Sans Notch", "Saira Stencil","serif";
+
+body {
+    font-family: "Merriweather", "Stack Sans Notch", "Saira Stencil", "serif";
 }
-.cat{
+
+.cat {
     display: flex;
     padding: 10px;
     border-bottom: 1px solid black;
     justify-content: space-around;
 }
-.cat p{
+
+.cat p {
     background-color: #9338DF;
     color: white;
     border-radius: 25px;
     padding: 10px;
+    border: #9338DF solid 1px;
+    cursor: pointer;
 }
-.sale img{
+.cat p:hover {
+    background-color: transparent;
+    color: #9338DF;
+    border: #9338DF solid 1px;
+    transition: 0.5s;
+
+}
+
+.sale img {
     width: 100%;
 }
-.course__1{
+
+.course__1 {
     height: 500px;
     width: 250px;
     padding: 20px;
-    
+
 }
-.course__2{
+
+.course__2 {
     height: 500px;
     width: 250px;
     padding: 20px;
-    
+
 }
-.course__3{
+
+.course__3 {
     height: 500px;
     width: 250px;
     padding: 20px;
-    
+
 }
-.course__4{
+
+.course__4 {
     height: 500px;
     width: 250px;
     padding: 20px;
-    
+
 }
-.course__1 img,.course__2 img,.course__3 img,.course__4 img{
-    height:250px ;
+
+.course__1 img,
+.course__2 img,
+.course__3 img,
+.course__4 img {
+    height: 250px;
     width: 250px;
 
 }
-.course__con{
+
+.course__con {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
 }
-.course{
+
+.course {
     padding: 20px;
-    
-    
+
+
 }
-.topic{
+
+.topic {
     padding: 20px;
 }
-.topic_t1{
+
+.topic_t1 {
     display: flex;
     flex-wrap: wrap;
 
 }
-.topic_t1 p{
+
+.topic_t1 p {
     border: solid 10px grey;
     padding: 10px;
     flex-grow: 1;
     flex-basis: 25%;
     gap: 10px;
 }
-.course2__con{
+
+.course2__con {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
 }
-.course2__1 img,.course2__2 img,.course2__3 img,.course2__4 img{
-    height:250px ;
+
+.course2__1 img,
+.course2__2 img,
+.course2__3 img,
+.course2__4 img {
+    height: 250px;
     width: 250px;
 
 }
-.course2__5 img,.course2__6 img,.course2__7 img,.course2__8 img{
-    height:250px ;
+
+.course2__5 img,
+.course2__6 img,
+.course2__7 img,
+.course2__8 img {
+    height: 250px;
     width: 250px;
 
 }
-.course2__1,.course2__2,.course2__3,.course2__4{
+
+.course2__1,
+.course2__2,
+.course2__3,
+.course2__4 {
     height: 500px;
     width: 250px;
     padding: 20px;
-    
+
 }
-.course2__5,.course2__6,.course2__7,.course2__8{
+
+.course2__5,
+.course2__6,
+.course2__7,
+.course2__8 {
     height: 500px;
     width: 250px;
     padding: 20px;
-    
+
 }
-.course2{
+
+.course2 {
     padding: 20px;
     margin: 20px;
 
 }
-.bottom__1{
+
+.bottom__1 {
     display: flex;
     gap: 20px;
 }
-.bottom__2{
+
+.bottom__2 {
     display: flex;
     justify-content: space-between;
     margin: 20px;
     align-items: center;
 }
-.bottom{
+
+.bottom {
     padding: 30px;
     background-color: black;
     color: white;
 }
-.bottom__s1 p,.bottom__s2 p{
+
+.bottom__s1 p,
+.bottom__s2 p {
     margin: 30px;
-}   
-.sale{
+}
+
+.sale {
     position: relative;
-} 
-.offer{
+}
+
+.offer {
     background-color: rgb(231, 226, 211);
     color: black;
     height: fit-content;
@@ -209,4 +270,21 @@ body{
     border-radius: 10px;
     box-shadow: peru;
     border: solid black 1px;
+    animation-name: zoom;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
